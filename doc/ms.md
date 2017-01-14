@@ -26,7 +26,7 @@ Selection is expected to drive efficacy in visual communication. A predicted out
 
 Colour-based luring has proven a valuable context for understanding visual deception. Orb-web spiders exemplify this predatory strategy, and many species use diverse body-architectures adorned with conspicuous colours and patterns to attract prey  [@white_technicolour_2015]. As sit-and-wait predators, orb-web spiders express a limited behavioural repertoire, though are capable of making active foraging decisions within the confines of their two-dimensional web [@zschokke_spider_2010; @uetz_prey_1987]. This offers a particularly tractable, albeit unexplored, context in which to explore the predicted links between deceptive signal structure, presentation, and efficacy.
 
-The northern jewelled spider _Gasteracantha fornicata_ is an orb-weaver endemic to tropical and sub-tropical Australasia. Females of the species display either a conspicuous white-and-black or yellow-and-black banded colour pattern on an elongated dorsum (Fig. 1d; [@kemp_color_2013]), which has been broadly implicated in prey attraction [@hauber_conspicuous_2002; @white_colour_2016]. Here I used this species to examine the link between the structure of a putative multicomponent deceptive signal and its behavioural presentation. I approached this in two stages. First, by testing whether _G. fornicata_ actively control the orientation of their conspicuous colour patterns in the web. And second, by investigating the relationship between pattern orientation, colour, & fitness (via prey interception) in the wild.
+The northern jewelled spider _Gasteracantha fornicata_ is an orb-weaver endemic to tropical and sub-tropical Australasia. Females of the species display either a conspicuous white-and-black or yellow-and-black banded colour pattern on an elongated dorsum (Fig. 1d; [@kemp_color_2013]), which has been broadly implicated in prey attraction [@hauber_conspicuous_2002; @white_colour_2016]. Here I used this species to examine the link between the structure of a putative multicomponent deceptive signal and its behavioural presentation. I approached this in two stages. First, I tested whether _G. fornicata_ actively control the orientation of their conspicuous colour patterns in the web. Second, I investigated the relationship between pattern orientation, colour, & fitness (via prey interception) in the wild.
 
 ## 2. Materials and methods
 
@@ -82,7 +82,7 @@ There was a relatively strong relationship between colour pattern orientation an
 | Morph x Orient.    |   0.005   |  0.058  |    0.950   |   0.925   |
 | Morph x Orient.^2^ |   0.001   |  0.001  |    0.054   |   0.957   |
 
-Table: GLM results testing the relationship between colour signal orientation and prey interception. Variables: _Morph_ spider colour morph; _Orient._ and _Orient.^2^_, linear and quadratic effects of banded colour pattern orientation. Bolded estimates indicate significance at &alpha; = 0.05.   
+Table: GLM results testing the relationship between between colour, pattern orientation, and prey interception. Variables: _Morph_ spider colour morph; _Orient._ and _Orient.^2^_, linear and quadratic effects of banded colour pattern orientation. Bolded estimates indicate significance at &alpha; = 0.05.   
 
 ![Prey interception rate as a function of mean colour pattern orientation in _G. fornicata_. Yellow and black points denote 'yellow' and 'white' spider morphs, respectively, and the dashed line and shaded region represents a quadratic fit &plusmn; se.](../figs/fig_2.png)
 
@@ -98,11 +98,11 @@ The absence of morph-specific effects on prey interception rates (Table 1) sugge
 
 **Acknowledgements**  
 
-I'm grateful to Darrell Kemp for valuable discussions and assistance, and Elizabeth Mulvenna for all her support.
+I am grateful to Darrell Kemp for valuable discussions and assistance, and Elizabeth Mulvenna for all her support.
 
 **Data accessibility**
 
-All raw data and code are available via github (), and will be made persistently available upon acceptance.
+All raw data and code are available via github (https://github.com/thomased/ms_spiderpattern), and will be made persistently available upon acceptance.
 
 **Funding statement**
 
