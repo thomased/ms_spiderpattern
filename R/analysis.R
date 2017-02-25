@@ -1,7 +1,7 @@
 ## ------------------------ ##
 
 ## Analysis code for:
-## White TE. (submitted). All that glitters: jewelled spiders manipulate colour lure 
+## White TE. (2017). All that glitters: jewelled spiders manipulate colour lure 
 ## geometry to decieve prey. Biology Letters.
 
 ## ------------------------ ##
@@ -113,7 +113,7 @@ polar <- ggplot(filter(data_manip_long, time == 't_0'), aes(angle)) +
 
 corr_1 <- ggplot(data_manip, aes(x = t_0, y = t_1)) +
               geom_point(aes(colour = morph)) +
-              scale_colour_manual(values = c('black', 'goldenrod')) +
+              scale_colour_manual(values = c('#3B9AB2', '#E1AF00')) +
               scale_x_continuous(' ', breaks = seq(0, 90, 10), labels = NULL) +
               scale_y_continuous('Orientation, randomised (deg)', breaks = seq(0, 90, 10)) +
               annotate('text', x = 9, y = 83, label = '(e)', size = 4, fontface = 2) +
@@ -125,7 +125,7 @@ corr_1 <- ggplot(data_manip, aes(x = t_0, y = t_1)) +
 
 corr_7 <- ggplot(data_manip, aes(x = t_0, y = t_7)) +
               geom_point(aes(colour = morph)) +
-              scale_colour_manual(values = c('black', 'goldenrod')) +
+              scale_colour_manual(values = c('#3B9AB2', '#E1AF00')) +
               stat_smooth(method = "lm", formula = y ~ x, size = 1, color = 'black', lty = 2) +
               scale_x_continuous('Initial orientation (deg)', breaks = seq(0, 90, 10)) +
               scale_y_continuous('Orientation, 3 hours (deg)', breaks = seq(0, 90, 10)) +
@@ -194,7 +194,7 @@ summary(mod)
 # Plot the relationship w/quadratic fit
 ggplot(data_caps, aes(x = angle_mean, y = dam_hr)) +
           geom_point(aes(colour = morph)) +
-          scale_colour_manual(values = c('black', 'goldenrod')) +
+          scale_colour_manual(values = c('#3B9AB2', '#E1AF00')) +
           stat_smooth(method = "lm", formula = y ~ x + I(x^2), size = 1, color = 'black', lty = 2) +
           scale_y_continuous(limits = c(0, 8)) +
           scale_x_continuous('Mean pattern orientation (deg)', breaks = seq(0, 90, 10)) + 

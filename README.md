@@ -2,4 +2,4 @@
 
 Manuscript and associated data & code:
 
-White TE (submitted) All that glitters: jeweled spiders manipulate colour-lure geometry to deceive prey. Biology Letters.
+White TE (2017) Jeweled spiders manipulate colour-lure geometry to deceive prey. _Biology Letters_
